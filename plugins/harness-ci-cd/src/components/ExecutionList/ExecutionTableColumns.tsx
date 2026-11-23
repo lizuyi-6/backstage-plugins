@@ -84,7 +84,13 @@ export function PrintCard(props: any) {
           row.sourcebranch === 'undefined' &&
           row.tag === 'undefined' ? null : (
             <>
-              <Grid item xs={2} md={2} alignItems="center" sx={{ paddingTop: '2px' }}>
+              <Grid
+                item
+                xs={2}
+                md={2}
+                alignItems="center"
+                sx={{ paddingTop: '2px' }}
+              >
                 <Tooltip title="Continuous Integration" arrow>
                   <svg
                     viewBox="0 0 32 32"
